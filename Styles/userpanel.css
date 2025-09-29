@@ -1,0 +1,40 @@
+section#UserPanelPage h1 {
+    padding: 30px;
+    color: #fff;
+    background: linear-gradient(90deg, #F01543 -1.58%, #FE724C 100%);
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.userCon{
+    margin: auto;
+    text-align: center;
+}
+section#UserPanelPage a.nav-link {
+    padding: 20px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+
+section#UserPanelPage a.active {
+    color: #fff !important;
+}
+
+section#UserPanelPage h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 25px;
+    color: #F01543 !important;
+}
+
+section#UserPanelPage li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+section#UserPanelPage li a {
+    font-size: 18px;
+    color: #F01543;
+}

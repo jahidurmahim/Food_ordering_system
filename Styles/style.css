@@ -1,0 +1,272 @@
+/* Font Poppins  */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container {
+  max-width: 1300px !important;
+}
+
+/* Main Section CSS  */
+#MainSec {
+  background: url(../Img/banner-bg.png) !important;
+  min-height: 100vh;
+}
+#MainSec a.navbar-brand {
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: 800;
+  color: #fff;
+}
+#MainSec img {
+  max-width: 160px;
+}
+button.navbar-toggler {
+    background: #f01543 !important;
+}
+#MainSec a.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  padding: 16px;
+}
+.navButton .login {
+  padding: 13px 30px;
+  font-size: 16px;
+  margin-right: 20px;
+  font-weight: 400;
+  border-radius: 10px;
+  background: #f01543 !important;
+  border: 1px solid #f01543;
+}
+
+.navButton .signup {
+  padding: 13px 30px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: 400;
+  background: transparent;
+  border: 1px solid #fff;
+}
+.navButton .signup:hover {
+  background: #fff;
+  color: #000;
+}
+.navButton .login:hover {
+  background: transparent !important;
+  border: 1px solid;
+  color: #fff;
+}
+.mainTextBox {
+  padding-top: 170px;
+}
+.mainTextBox h1 {
+  color: #fff;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: -0.68px;
+}
+.mainTextBox h1 span {
+    background: linear-gradient(90deg, #F01543 -1.58%, #FE724C 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mainTextBox p {
+  padding-top: 32px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145%;
+  letter-spacing: -0.09px;
+  color: #ffffffde;
+}
+.mainButtonBox a {
+  margin-top: 40px;
+  font-size: 18px;
+  padding: 20px 45px;
+  border: none;
+  background: #f01543 !important;
+  font-weight: 700;
+  transition: 0.3s ease all;
+}
+.mainButtonBox a:hover {
+  margin-top: 35px;
+  background: #fff !important;
+  color: #000;
+}
+
+/* Categories Section CSS */
+#categoriesSec {
+  padding: 60px 0;
+  background: #f8f9fa;
+}
+.categoryBox {
+  padding: 20px;
+  border: 1px solid #f1f1f1;
+  border-radius: 10px;
+  background: #fff;
+  transition: 0.5s ease all;
+}
+.categoryBox:hover {
+  background: linear-gradient(90deg, #F01543 -1.58%, #FE724C 100%);
+}
+.categoryIcon {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+.categoryTitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.categoryDesc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777;
+} 
+.categoryBox:hover .categoryDesc{
+  color: #fff;
+}
+.categoryBox:hover .categoryTitle{
+  color: #fff;
+}
+#categoriesSec h1{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -0.48px;
+  margin-bottom: 40px !important;
+  margin: auto;
+}
+section#promoBanner{
+  padding: 60px 0;
+  background: #f8f9fa;
+}
+section#promoBanner img {
+  width: 100%;
+}
+
+/* Featured Products Section CSS */
+#featuredProductsSec {
+  padding: 60px 0;
+  background: #ffffff;
+}
+#featuredProductsSec h1{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+  color: #F01543;
+  letter-spacing: -0.48px;
+  margin-bottom: 40px !important;
+  margin: auto;
+}
+.productBox {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background: #fff;
+  transition: 0.3s ease all;
+}
+
+.productImage {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.productTitle {
+  font-size: 25px;
+  font-weight: 800;
+  color: #f01543;
+  margin-bottom: 10px;
+}
+.productDesc {
+  font-size: 16px;
+  font-weight: 500;
+  color: #515050;
+  margin-bottom: 10px;
+}
+.productPrice {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f01543;
+  margin-bottom: 20px;
+}
+.productButtonBox .btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-size: 16px;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.productButtonBox .btn-primary {  
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #f01543;
+  border: 1px solid #f01543;
+}
+.productButtonBox .btn-secondary {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #6c757d;
+  border: 1px solid #6c757d;
+}
+.productButtonBox .btn-primary:hover, .productButtonBox .btn-secondary:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+}
+.products2{
+  padding: 40px 0px;
+}
+/* Newsletter Section CSS */
+#newsletterSec {
+  padding: 60px 0;
+  background:url(../Img/newsbg.png);
+}
+.newsletterTitle {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.newsletterDesc {
+  font-size: 18px;
+  font-weight: 400;
+  color: #777;
+  margin-bottom: 40px;
+}
+.newsletterForm {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.newsletterForm .emailInput {
+  flex: 1;
+  padding: 26px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+.newsletterForm .submitButton {
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  background: #f01543;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.newsletterForm .submitButton:hover {
+  background: #d0123a;
+}

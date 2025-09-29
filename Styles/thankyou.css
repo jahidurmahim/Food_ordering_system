@@ -1,0 +1,39 @@
+
+
+body {
+    font-family: poppins, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+.thank-you-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #f01543;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    display: inline-block;
+    background: linear-gradient(90deg, #F01543 -1.58%, #FE724C 100%);
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background: linear-gradient(90deg, #F01543 -1.58%, #FE724C 100%);
+}

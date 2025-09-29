@@ -1,0 +1,127 @@
+ /* Font Poppins  */
+ @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+ * {
+     margin: 0px;
+     padding: 0px;
+     font-family: "Plus Jakarta Sans", sans-serif;
+ }
+
+ /* Additional CSS for About Us Page */
+ #aboutUsSec {
+     padding: 60px 0;
+     background: #ffffff;
+ }
+
+ #aboutUsSec h2 {
+     font-size: 36px;
+     font-weight: 700;
+     color: #F01543;
+     margin-bottom: 30px;
+ }
+
+ #aboutUsSec p {
+     font-size: 18px;
+     line-height: 1.8;
+     color: #777;
+ }
+
+ section#aboutUsSec img {
+     width: 50%;
+     border-radius: 5px;
+ }
+
+ /* Navbar Styling */
+ #header {
+     background-color: #333;
+     padding: 10px 0;
+     /* Padding at the top and bottom of the navbar */
+ }
+
+ #header .navbar-brand img {
+     max-width: 120px;
+     /* Adjust the max-width of the logo */
+ }
+
+ #header .navbar-nav {
+     margin-left: auto;
+     /* Aligns the navbar items to the right */
+ }
+
+ #header .navbar-nav .nav-item {
+     margin-left: 15px;
+     /* Adjust the space between navbar items */
+ }
+
+ #header .nav-link {
+     color: #fff;
+     /* Color of the navbar links */
+     font-weight: 500;
+     /* Font weight of the navbar links */
+ }
+
+ #header .nav-link:hover {
+     color: #f01543;
+     /* Color of the navbar links on hover */
+ }
+
+ #header .dropdown-menu {
+     background-color: #ffffff;
+     /* Background color of the dropdown menu */
+ }
+
+ #header .dropdown-item {
+     color: #333;
+     /* Color of the dropdown items */
+ }
+
+ #header .dropdown-item:hover {
+     background-color: #f8f9fa;
+     /* Background color of the dropdown items on hover */
+ }
+
+ #header .navButton .btn {
+     margin-left: 15px;
+     /* Adjust the space between buttons */
+ }
+
+ #header .login {
+     background-color: #f01543;
+     /* Background color of the login button */
+     border: none;
+     /* Removes border */
+ }
+
+ #header .signup {
+     background-color: transparent;
+     /* Background color of the sign up button */
+     border: 1px solid #f01543;
+     /* Border color of the sign up button */
+     color: #f01543;
+     /* Text color of the sign up button */
+ }
+
+ #header .signup:hover {
+     background-color: #f01543;
+     /* Background color of the sign up button on hover */
+     color: #ffffff;
+     /* Text color of the sign up button on hover */
+ }
+
+ /* Optional: Responsive Adjustments */
+ @media (max-width: 768px) {
+     #header .navButton {
+         margin-top: 10px;
+         /* Adjusts spacing for buttons on smaller screens */
+     }
+
+     #header .navbar-collapse {
+         border-top: 1px solid #f8f9fa;
+         /* Adds a border at the top of the collapsed navbar */
+     }
+
+     #header .dropdown-menu {
+         border: none;
+         /* Removes border from dropdown menu */
+     }
+ }
